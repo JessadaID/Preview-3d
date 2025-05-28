@@ -11,7 +11,7 @@ Preview-3d เป็นเว็บแอปพลิเคชันที่พ
 * อินเทอร์เฟซผู้ใช้ที่เรียบง่ายและใช้งานง่าย
 
 ## Preview
-![Preview]("./public/Screenshot.jpg")
+![Preview](./public/Screenshot.jpg)
 
 
 ## การติดตั้งและการใช้งาน
@@ -37,6 +37,19 @@ npm run dev
 แอปพลิเคชันจะพร้อมใช้งานที่ http://localhost:5173/
 
 ## โครงสร้างโปรเจกต์
+```pgsql
+project-three-js/
+├── public/
+│   └── model
+├── src/
+│   ├── App.css
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
 
 * src/ - โค้ดต้นฉบับของแอปพลิเคชัน
 
